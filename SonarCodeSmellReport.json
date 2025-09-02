@@ -1,0 +1,621 @@
+{
+    "total": 19,
+    "p": 1,
+    "ps": 500,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 19
+    },
+    "effortTotal": 47,
+    "issues": [
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_I",
+            "rule": "csharpsquid:S1144",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 11,
+            "hash": "7e0089d87464e85f9c411d625a64fe5f",
+            "textRange": {
+                "startLine": 11,
+                "endLine": 11,
+                "startOffset": 8,
+                "endOffset": 23
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove the unused private field 'message'.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "",
+            "tags": [
+                "unused"
+            ],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_R",
+            "rule": "external_roslyn:CS0169",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 11,
+            "hash": "7e0089d87464e85f9c411d625a64fe5f",
+            "textRange": {
+                "startLine": 11,
+                "endLine": 11,
+                "startOffset": 15,
+                "endOffset": 22
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "The field 'Calculation.message' is never used",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_J",
+            "rule": "csharpsquid:S1144",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 12,
+            "hash": "b83bf7ed7f5719da923e1bc0ac69952b",
+            "textRange": {
+                "startLine": 12,
+                "endLine": 12,
+                "startOffset": 8,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove the unused private field 'count'.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "",
+            "tags": [
+                "unused"
+            ],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_Q",
+            "rule": "external_roslyn:CS0169",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 12,
+            "hash": "b83bf7ed7f5719da923e1bc0ac69952b",
+            "textRange": {
+                "startLine": 12,
+                "endLine": 12,
+                "startOffset": 12,
+                "endOffset": 17
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "The field 'Calculation.count' is never used",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_P",
+            "rule": "external_roslyn:CS8618",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 14,
+            "hash": "8f29ef8c8379d8c303e9866b8c3fa83d",
+            "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 15,
+                "endOffset": 26
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "BankingWebAPI:Helpers/Calculation.cs",
+                            "textRange": {
+                                "startLine": 11,
+                                "endLine": 11,
+                                "startOffset": 15,
+                                "endOffset": 22
+                            },
+                            "msgFormattings": []
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Non-nullable field 'message' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_N",
+            "rule": "external_roslyn:CS8600",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 21,
+            "hash": "d0f130e8ebe70966c0691083131eebd0",
+            "textRange": {
+                "startLine": 21,
+                "endLine": 21,
+                "startOffset": 29,
+                "endOffset": 33
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Converting null literal or possible null value to non-nullable type.",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_O",
+            "rule": "external_roslyn:CS8604",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 22,
+            "hash": "41f2a1704885ea2a8e7d6ac5c331feda",
+            "textRange": {
+                "startLine": 22,
+                "endLine": 22,
+                "startOffset": 28,
+                "endOffset": 35
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Possible null reference argument for parameter 'number2' in 'void Calculation.Divide(object number1, object number2)'.",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_U",
+            "rule": "external_roslyn:CA1822",
+            "severity": "INFO",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 25,
+            "hash": "7663fdca1331acce3da8e801b8ad320a",
+            "textRange": {
+                "startLine": 25,
+                "endLine": 25,
+                "startOffset": 20,
+                "endOffset": 23
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Member 'Add' does not access instance data and can be marked as static",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_E",
+            "rule": "csharpsquid:S125",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 29,
+            "hash": "39282bb4848b20a4bd5ac61b41407eaa",
+            "textRange": {
+                "startLine": 29,
+                "endLine": 29,
+                "startOffset": 16,
+                "endOffset": 83
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this commented out code.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "",
+            "tags": [
+                "unused"
+            ],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_L",
+            "rule": "csharpsquid:S3445",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 39,
+            "hash": "0035637f9ec51c5fb5340ada4ea0df62",
+            "textRange": {
+                "startLine": 39,
+                "endLine": 39,
+                "startOffset": 16,
+                "endOffset": 25
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Consider using 'throw;' to preserve the stack trace.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "confusing",
+                "error-handling"
+            ],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_S",
+            "rule": "external_roslyn:CA2200",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 39,
+            "hash": "0035637f9ec51c5fb5340ada4ea0df62",
+            "textRange": {
+                "startLine": 39,
+                "endLine": 39,
+                "startOffset": 16,
+                "endOffset": 25
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Re-throwing caught exception changes stack information",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_V",
+            "rule": "external_roslyn:CA1822",
+            "severity": "INFO",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 43,
+            "hash": "65a013c6c0a699db20334c4bfa944e1f",
+            "textRange": {
+                "startLine": 43,
+                "endLine": 43,
+                "startOffset": 20,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Member 'Divide' does not access instance data and can be marked as static",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_T",
+            "rule": "external_roslyn:CA1822",
+            "severity": "INFO",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 50,
+            "hash": "0db50202bfce454fc739fdcd73f76a27",
+            "textRange": {
+                "startLine": 50,
+                "endLine": 50,
+                "startOffset": 20,
+                "endOffset": 27
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Member 'TestAdd' does not access instance data and can be marked as static",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_K",
+            "rule": "csharpsquid:S1144",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 59,
+            "hash": "f47eada41fdc07086f0c4cb02fe01d99",
+            "textRange": {
+                "startLine": 59,
+                "endLine": 59,
+                "startOffset": 21,
+                "endOffset": 28
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove the unused private method 'TaxCalc'.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "",
+            "tags": [
+                "unused"
+            ],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_W",
+            "rule": "external_roslyn:CA1822",
+            "severity": "INFO",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 59,
+            "hash": "f47eada41fdc07086f0c4cb02fe01d99",
+            "textRange": {
+                "startLine": 59,
+                "endLine": 59,
+                "startOffset": 21,
+                "endOffset": 28
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Member 'TaxCalc' does not access instance data and can be marked as static",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_F",
+            "rule": "csharpsquid:S125",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 64,
+            "hash": "3ff4a63d54437ca8b89e3a6feab82cb5",
+            "textRange": {
+                "startLine": 64,
+                "endLine": 64,
+                "startOffset": 12,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this commented out code.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "",
+            "tags": [
+                "unused"
+            ],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_G",
+            "rule": "csharpsquid:S1104",
+            "severity": "MINOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 81,
+            "hash": "02830a825ed60652ff821ecf56c545bc",
+            "textRange": {
+                "startLine": 81,
+                "endLine": 81,
+                "startOffset": 22,
+                "endOffset": 27
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "",
+            "tags": [
+                "cwe"
+            ],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_M",
+            "rule": "external_roslyn:CS8618",
+            "severity": "MAJOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 81,
+            "hash": "02830a825ed60652ff821ecf56c545bc",
+            "textRange": {
+                "startLine": 81,
+                "endLine": 81,
+                "startOffset": 22,
+                "endOffset": 27
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "BankingWebAPI:Helpers/Calculation.cs",
+                            "textRange": {
+                                "startLine": 81,
+                                "endLine": 81,
+                                "startOffset": 22,
+                                "endOffset": 27
+                            },
+                            "msgFormattings": []
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Non-nullable field 'State' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "",
+            "tags": [],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "externalRuleEngine": "roslyn",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        },
+        {
+            "key": "AY1q2Av6e7vpkOOxDB_H",
+            "rule": "csharpsquid:S1104",
+            "severity": "MINOR",
+            "component": "BankingWebAPI:Helpers/Calculation.cs",
+            "project": "BankingWebAPI",
+            "line": 82,
+            "hash": "2058a6da2177c6420d14c416a8009a43",
+            "textRange": {
+                "startLine": 82,
+                "endLine": 82,
+                "startOffset": 22,
+                "endOffset": 29
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "",
+            "tags": [
+                "cwe"
+            ],
+            "creationDate": "2024-02-02T17:22:22+0000",
+            "updateDate": "2024-02-02T17:22:22+0000",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": []
+        }
+    ],
+    "components": [
+        {
+            "key": "BankingWebAPI",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "BankingWebAPI",
+            "longName": "BankingWebAPI"
+        },
+        {
+            "key": "BankingWebAPI:Helpers/Calculation.cs",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "Calculation.cs",
+            "longName": "Helpers/Calculation.cs",
+            "path": "Helpers/Calculation.cs"
+        }
+    ],
+    "facets": []
+}
