@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +22,14 @@ namespace CalcApp
             Divide(number3, number4);
         }
 
+        /// <summary>
+        /// Adds two numeric objects after converting them to integers and outputs the result to the console.
+        /// </summary>
+        /// <param name="number1">The first number to be added, expected to be convertible to an integer.</param>
+        /// <param name="number2">The second number to be added, expected to be convertible to an integer.</param>
+        /// <example>
+        /// Add(2, "3"); // Console output: Add(2, 'three') result = 5
+        /// </example>
         public void Add(object number1, object number2)
         {
             try
@@ -56,6 +64,15 @@ namespace CalcApp
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Calculates the total tax for customers from Florida based on their balance.
+        /// </summary>
+        /// <remarks>
+        /// This method iterates through a list of customers and adds up the balance of those located in Florida to calculate the total tax.
+        /// </remarks>
+        /// <example>
+        /// TaxCalc();
+        /// </example>
         private void TaxCalc()
         {
             List<CustomerModel> CustomerList = new List<CustomerModel>();
