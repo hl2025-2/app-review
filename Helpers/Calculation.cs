@@ -22,6 +22,7 @@ namespace CalcApp
             Divide(number3, number4);
         }
 
+
         /// <summary>
         /// Adds two numeric objects after converting them to integers and outputs the result to the console.
         /// </summary>
@@ -29,7 +30,7 @@ namespace CalcApp
         /// <param name="number2">The second number to be added, expected to be convertible to an integer.</param>
         /// <example>
         /// Add(2, "3"); // Console output: Add(2, 'three') result = 5
-        /// </example>
+        /// </example
         public void Add(object number1, object number2)
         {
             try
@@ -63,6 +64,7 @@ namespace CalcApp
             Console.WriteLine(string.Format("{0}", x + y)); // 412
             Console.ReadKey();
         }
+
 
         /// <summary>
         /// Calculates the total tax for customers from Florida based on their balance.
@@ -98,5 +100,6 @@ namespace CalcApp
         public string State;
         public double Balance;
     }
+
 
 }
