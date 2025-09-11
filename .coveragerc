@@ -1,0 +1,7 @@
+# include every Python file under the repo root
+source = .
+
+# exclude tests, virtualenvs, build artifacts, etc.
+omit =
+    */mo4doutput/unittest/mstest/*
+    
